@@ -24,3 +24,4 @@ soup = BeautifulSoup(page, "html.parser")
 for tag in soup.find_all("p"):
     #앞뒤에 공백문자를 제거 
     print( tag.text.strip() )
+
